@@ -1,12 +1,20 @@
 
+    
+      new WOW().init()
 
+      
+      $(function() {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+  
 
+   
+    
+      $(document).ready(function() {
+        $('.mdb-select').material_select()
+      })
+   
 
-  var lineDrawing = anime({
-    targets: '.rope-img',
-    strokeDashoffset: [anime.setDashoffset, 0],
-    easing: 'easeInOutSine',
-    duration: 1000,
-    // direction: 'alternate',
-    loop: true,
-});
+     
+      $('.button-collapse').sideNav()
+ 
