@@ -5,7 +5,7 @@ body {
 }
 
 .side-nav .logo-wrapper img {
-  padding: 3% 30px;
+  padding: 1% 45px;
 }
 
 @media (max-height: 992px) {
@@ -89,6 +89,15 @@ body {
 }
 
 
+.new-content-img{
+  position: relative;
+  background: url(../img/NY0LB1Y36HM11533754751160.png) no-repeat center;
+  background-size: cover;
+  height: 150vh;
+}
 
 
+.new-content-video{
+  position: absolute;
+}
 
