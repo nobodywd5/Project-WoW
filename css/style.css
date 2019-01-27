@@ -1,0 +1,94 @@
+body {
+  background-color: black;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.side-nav .logo-wrapper img {
+  padding: 3% 30px;
+}
+
+@media (max-height: 992px) {
+  .side-nav .logo-wrapper {
+    height: 155px;
+  }
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #5bce2e;
+}
+.navbar-light .navbar-brand {
+    color: #5bce2e;
+}
+
+.navbar.navbar-light .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=1e5108');
+}
+
+
+
+.top-nav-collapse {
+  background-color: #7d8488 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #7d8488 !important;
+  }
+
+}
+
+
+/* 
+@media (max-width: 740px) {
+  .full-height,
+  .full-height body,
+  .full-height header,
+  .full-height header .view {
+    height: 700px;
+  }
+} */
+.video-bg {
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+  }
+
+@media (max-width: 768px) {
+    .video-bg {
+        margin-top: 4em;
+        background-image: none;
+    }
+}
+@media (max-width: 600px) {
+    .video-bg {
+        margin-top: 3.5em;
+    }
+}
+#video-news {
+  background: -moz-linear-gradient(top, #002400 0%, #005700 17%, #008a00 33%, #52b152 67%, #83c783 83%, #b4ddb4 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #002400 0%,#005700 17%,#008a00 33%,#52b152 67%,#83c783 83%,#b4ddb4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #002400 0%,#005700 17%,#008a00 33%,#52b152 67%,#83c783 83%,#b4ddb4 100%); 
+}
+
+
+
+.img-content-box{
+  background: url(../img/PageNavbar-ocho.png)center;
+  width: 100%;
+  height: 70px;
+  position: relative;
+  margin-top: -5px;
+}
+
+
+
+
+
