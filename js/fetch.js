@@ -31,7 +31,7 @@ linkArray.forEach((eachLink) => {
                 break;
                 
             case indexStartLink:
-                fetchPage(eachLink, '../html/indexStart.html');
+                fetchPage(eachLink, 'indexStart.html');
                 break;
         }
     })
