@@ -27,11 +27,11 @@ linkArray.forEach((eachLink) => {
                 break;
 
             case battleOfAzerothLink:
-                fetchPage(eachLink, 'battleOfAzeroth.html');
+                fetchPage(eachLink, '../html/battleOfAzeroth.html');
                 break;
                 
             case indexStartLink:
-                fetchPage(eachLink, '../html/indexStart.html');
+                fetchPage(eachLink, 'indexStart.html');
                 break;
         }
     })
