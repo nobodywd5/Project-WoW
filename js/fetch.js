@@ -62,10 +62,11 @@ function fetchPage(link, page) {
                 }
             })
 
-           
-
+           let bodyAll = document.querySelector('body');
+           let newContent = doc.querySelector('.new-content');
+           let headerNav = doc.querySelector('.gallery-nav');
             setTimeout(function () {
-                document.querySelector('body').insertBefore(doc.querySelector('.new-content'), document.querySelector('.gallery-nav'));
+                bodyAll.insertBefore(newContent, headerNav);
 
                 anime({
                     targets: '.new-content',
